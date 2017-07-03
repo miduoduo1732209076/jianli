@@ -1,0 +1,27 @@
+/*.one img:nth-child(1){width:2.11rem;height:2.5rem;display: block;*/
+/*position: absolute;left:0.5rem;top:0;animation:img_1 0.3s linear}*/
+/*@keyframes img_1 {*/
+    /*from{transform:translateY(-0.5rem)}*/
+    /*to{}*/
+/*}*/
+/*.one img:nth-child(2){width:1.55rem;height:1.33rem;display: block;*/
+/*position: absolute;left:0.81rem;top:3.4rem;animation:img_2 0.3s linear}*/
+/*@keyframes img_2 {*/
+    /*from{transform:translateX(-1.2rem)}*/
+    /*to{}*/
+/*}*/
+.jiantou{position: absolute;left:3rem;bottom:0.5rem;
+    width:0.5rem;height:0.28rem;animation:img_3 1s linear infinite;}
+@keyframes img_3 {
+    0%{transform:translateY(-0.3rem)}
+    20%{transform:translateY(0rem)}
+    100%{transform:translateY(0.2rem)}
+}
+
+.music_ani{
+    animation:misic_ani_k 3s linear infinite;
+}
+@keyframes misic_ani_k {
+    0%{}
+    100%{transform:rotateZ(360deg)}
+}
